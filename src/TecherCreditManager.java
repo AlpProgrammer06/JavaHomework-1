@@ -1,0 +1,6 @@
+public class TecherCreditManager extends BaseCreditManager implements ICreditManager{
+    @Override
+    public void Calculate() {
+        System.out.println("Öğretmen kredisi hesaplandı. ");
+    }
+}
